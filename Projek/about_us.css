@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2b2b2b;
+    padding: 30px;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo_container{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#logo{
+    font-family: fantasy;
+    font-size: 30px;
+    text-decoration: none  ;
+    color: white;
+}
+   
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    border: #d9d9d9 solid 4px;
+    border-radius: 50px;
+    background-color: #d9d9d9;
+    
+  }
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 15px;
+    color:white;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+  } 
+
+li a:hover{
+    background-color: white;
+}
+
+#active{
+    background-color: darkgray;
+}
+
+#image{
+    width: 100%;  
+    height: 100%;
+    border-top :  4px solid gray; 
+    border-bottom :  4px solid gray; 
+    filter: brightness(30%);
+    margin-bottom: 0%;
+}
+
+.content{
+    width: 100%;
+    border-top: 4px solid gray;
+    margin-bottom: none;
+}
+#about_us{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+#about_us_title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+}
+
+#about_us_text{
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+#sos_title{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+}
+
+#insta{
+    margin-top: 10px;
+}
+
+#insta, #twit, #fb, #email{
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+
+#social{
+    position: absolute;
+    top: 500px;
+    left: 20px;
+    font-size: 50px;
+    color: white;
+    width: 100%;
+}
+
+.footer{
+    margin-top: -9px;
+    border-top: gray solid 4px;
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#footer_title{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+#medsos_logo{
+    float: right;
+}
+
+#twitterlogo{
+    padding-right: 5px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+#instalogo{
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+#fblogo{
+    padding-left: 3px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}

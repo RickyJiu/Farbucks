@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2b2b2b;
+    padding: 30px;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo_container{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#logo{
+    font-family: fantasy;
+    font-size: 30px;
+    text-decoration: none  ;
+    color: white;
+}
+   
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    border: #d9d9d9 solid 4px;
+    border-radius: 50px;
+    background-color: #d9d9d9;
+    
+  }
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 15px;
+    color:white;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+  } 
+
+  li a:hover{
+    background-color: white;
+  }
+
+  #active{
+    background-color: darkgray;
+  }
+
+#image {
+    width: 100%;  
+    height: 800px;
+    border-top :  2px solid gray; 
+    border-bottom :  4px solid gray; 
+    filter: brightness(50%);
+}
+
+.text{
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+.content{
+    padding: 30px;
+    background-color: white;
+ }
+
+ #desc_title{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+     text-align: center;
+ }
+
+ #welcome{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 20px;
+    margin-top: 10px;
+ }
+
+ #desc_text{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+#content_image{
+    margin-top: 30px;
+    float: left;
+    height: 300px;
+    width: 200px;
+    margin-left: 30% ;
+}
+
+#content_text{
+    margin-top: 10px;
+    margin-left: 700px;
+    height: 300px;
+    width: 300px;
+    text-align: justify;
+}
+
+#barista{
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.footer{
+  border-top: gray solid 4px;
+  margin-top: 40px;
+  background-color: #2b2b2b;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+#footer_title{
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+  font-family: fantasy;
+  font-size: 30px;
+}
+
+#medsos_logo{
+  float: right;
+}
+
+#twitterlogo{
+  padding-right: 5px;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+}
+
+#instalogo{
+  padding-right: 5px;
+  padding-left: 5px;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+}
+
+#fblogo{
+  padding-left: 3px;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+}
+
+@media only screen and (min-width: 810px)  {
+  .content{
+    display: block;
+  }
+
+  #content_tet{
+    margin-left: 10%;
+  }
+
+
+}

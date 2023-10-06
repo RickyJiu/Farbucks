@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+  height: 100%;
+}
+
+html{
+  height: 100%;
+}
+
+.header {
+    background-color: #2b2b2b;
+    padding: 30px;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo_container{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#logo{
+    font-family: fantasy;
+    font-size: 30px;
+    text-decoration: none  ;
+    color: white;
+}
+   
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    border: #d9d9d9 solid 4px;
+    border-radius: 50px;
+    background-color: #d9d9d9;
+    
+  }
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 15px;
+    color:white;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+  } 
+
+  li a:hover{
+    background-color: white;
+  }
+
+  #active{
+    background-color: darkgray;
+  }
+
+  .content{
+      background-color: white;
+  }
+
+  #menus_box{
+      margin-top: 3%;
+      margin-bottom: 3%;
+      margin-left: 10px;
+      margin-right: 10px;
+      border: black solid 2px;
+  }
+
+  #menus_title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+
+  #coffee, #espresso, #americano, #cappucino, #special{
+     margin-top: 15px;
+     margin-left: 10px;
+  }
+
+  #coffee_title, #espresso_title, #americano_title, #cappucino_title, #special_title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+ }
+
+ #coffee_desc, #espresso_desc, #americano_desc, #cappucino_desc, #special_desc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+ }
+
+  #special{
+      margin-bottom: 5px;
+  }
+
+.footer{
+    border-top: gray solid 4px;
+    margin-top: 10px;
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#footer_title{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+#medsos_logo{
+    float: right;
+}
+
+#twitterlogo{
+    padding-right: 5px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+  }
+  
+  #instalogo{
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+  }
+  
+  #fblogo{
+    padding-left: 3px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+  }
+
+  
