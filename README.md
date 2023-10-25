@@ -1,2 +1,2 @@
-# GrandCity
-The website that is designed with HTML and CSS Technology for mall system
+# Farcbucks
+The website that is designed with HTML, CSS and JS Technology for Coffee shop system
